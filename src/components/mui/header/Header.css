@@ -1,0 +1,208 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap");
+
+.headerbg {
+  width: 100%;
+  min-height: 100vh;
+  background-image: url("https://thumb.tildacdn.com/tild3534-3861-4235-b461-306464346265/-/format/webp/noroot.png");
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+  /* padding: 1rem; */
+  background-size: cover;
+  background-position-x: 100%;
+}
+.header-texts {
+  display: flex;
+  flex-direction: column;
+  padding: 3rem;
+  max-width: 760px;
+  /* padding-left: 8rem;
+  padding-top: 9rem; */
+  /* margin: ; */
+}
+.year-umra {
+  font-weight: 300;
+  font-size: 4rem;
+  font-family: "Roboto Slab", serif;
+  color: rgb(55, 50, 50);
+  margin-bottom: 2rem;
+}
+
+.arabic {
+  font-size: 1.5rem;
+  font-weight: 500;
+  color: rgb(21, 71, 71);
+  margin-bottom: 2rem;
+}
+
+.text-khadis {
+  font-size: 1.5rem;
+  font-family: "Roboto Slab", serif;
+  font-weight: 300;
+  margin-bottom: 3rem;
+}
+.btn-tur {
+  width: 15rem;
+  height: 3rem;
+  border-radius: 2rem;
+  background-color: #4fbcc1;
+  color: black;
+  font-weight: 600;
+}
+.btn-tur:hover {
+  background-color: rgb(22, 22, 144);
+  color: #fff;
+}
+
+.btn-news {
+  width: 15rem;
+  height: 3rem;
+  border-radius: 2rem;
+  background-color: white;
+  font-weight: 600;
+}
+.btn-news:hover {
+  background-color: rgb(22, 22, 144);
+  color: #fff;
+}
+
+@media (max-width: 1200px) {
+  .header-texts {
+    margin-top: 2rem;
+  }
+  .year-umra {
+    font-weight: 300;
+    font-size: 3rem;
+    font-family: "Roboto Slab", serif;
+    color: rgb(55, 50, 50);
+    margin-bottom: 1.5rem;
+  }
+  .arabic {
+    font-size: 1 0.3rem;
+    font-weight: 500;
+    color: rgb(21, 71, 71);
+    margin-bottom: 1.5rem;
+  }
+  .text-khadis {
+    font-size: 1.3rem;
+    font-family: "Roboto Slab", serif;
+    font-weight: 300;
+    margin-bottom: 3rem;
+  }
+}
+
+@media (max-width: 992px) {
+  .header-texts {
+    margin-top: 1rem;
+    max-width: 400px;
+  }
+  .year-umra {
+    font-weight: 300;
+    font-size: 2.5rem;
+    font-family: "Roboto Slab", serif;
+    color: rgb(55, 50, 50);
+    margin-bottom: 1.2rem;
+  }
+  .arabic {
+    font-size: 1.3rem;
+    font-weight: 500;
+    color: rgb(21, 71, 71);
+    margin-bottom: 1.2rem;
+  }
+  .text-khadis {
+    font-size: 1rem;
+    font-family: "Roboto Slab", serif;
+    font-weight: 300;
+    margin-bottom: 3rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .headerbg {
+    background-position-x: 57%;
+  }
+  .header-texts {
+    margin-top: -2rem;
+    max-width: 400px;
+  }
+  .year-umra {
+    font-weight: 300;
+    font-size: 2rem;
+    font-family: "Roboto Slab", serif;
+    color: rgb(55, 50, 50);
+    margin-bottom: 1.2rem;
+  }
+  .arabic {
+    font-size: 0.9rem;
+    font-weight: 500;
+    color: rgb(21, 71, 71);
+    margin-bottom: 1.2rem;
+  }
+  .text-khadis {
+    font-size: 0.7rem;
+    font-family: "Roboto Slab", serif;
+    font-weight: 300;
+    margin-bottom: 2.3rem;
+  }
+  .btn-tur {
+    width: 10rem;
+    height: 2rem;
+    border-radius: 1.5rem;
+    background-color: #4fbcc1;
+    color: black;
+    font-weight: 500;
+    font-size: 0.7rem;
+  }
+  .btn-news {
+    width: 10rem;
+    height: 2rem;
+    border-radius: 1.5rem;
+    background-color: #fff;
+    color: black;
+    font-weight: 500;
+    font-size: 0.7rem;
+  }
+}
+
+@media (max-width: 600px) {
+  .header-texts {
+    margin-top: -10rem;
+  }
+  .year-umra {
+    font-weight: 300;
+    font-size: 1.8rem;
+    font-family: "Roboto Slab", serif;
+    color: rgb(55, 50, 50);
+    margin-bottom: 1rem;
+  }
+  .arabic {
+    font-size: 0.7rem;
+    font-weight: 500;
+    color: rgb(21, 71, 71);
+    margin-bottom: 1rem;
+  }
+  .text-khadis {
+    font-size: 0.7rem;
+    font-family: "Roboto Slab", serif;
+    font-weight: 300;
+    margin-bottom: 1.5rem;
+  }
+  .btn-tur {
+    width: 9rem;
+    height: 1.6rem;
+    border-radius: 1.5rem;
+    background-color: #4fbcc1;
+    color: black;
+    font-weight: 400;
+    font-size: 0.7rem;
+  }
+  .btn-news {
+    width: 9rem;
+    height: 1.6rem;
+    border-radius: 1.5rem;
+    background-color: #fff;
+    color: black;
+    font-weight: 400;
+    font-size: 0.7rem;
+  }
+}
