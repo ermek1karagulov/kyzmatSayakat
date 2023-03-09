@@ -46,6 +46,9 @@ li {
     height: 2.7rem;
   }
 }
+/* .App {
+  position: fixed;
+} */
 .navbar {
   display: flex;
   align-items: center;
